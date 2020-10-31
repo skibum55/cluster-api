@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/klog"
+	klog "k8s.io/klog/v2"
 	clusterv1 "sigs.k8s.io/cluster-api/api/v1alpha4"
 	"sigs.k8s.io/cluster-api/controllers"
 	ctrl "sigs.k8s.io/controller-runtime"
